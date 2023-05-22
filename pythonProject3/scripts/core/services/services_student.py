@@ -7,32 +7,58 @@ app = APIRouter()
 
 @app.get("/show_details")
 def show():
-    return get_student()
+    try:
+        return get_student()
+    except Exception as e:
+        print(e)
+        return {"failed"}
 
 
 @app.post("/add")
 def add(student: Student):
-    return insert_student(student)
+    try:
+        return insert_student(student)
+    except Exception as e:
+        print(e)
+        return {"failed"}
+
 
 
 @app.put("/update")
 def update(roll: int, student: Student):
-    return update_student(roll, student)
+    try:
+        return update_student(roll, student)
+    except Exception as e:
+        print(e)
+        return {"failed"}
 
 
 @app.delete("/delete")
 def delete(roll: int):
-    return delete_student(roll)
+    try:
+        return delete_student(roll)
+    except Exception as e:
+        print(e)
+        return {"failed"}
 
 
 @app.post("/send email")
 def fun(email:Email):
-    total_value = pipeline()
-    return send_email(str(total_value), email)
+    try:
+        total_value = pipeline()
+        return send_email(str(total_value), email)
+    except Exception as e:
+        print(e)
+        return {"failed"}
 
 
 @app.get("/total_amount_collected")
 def fun():
-    return pipeline()
+    try:
+
+        return pipeline()
+    except Exception as e:
+        print(e)
+        return {"failed"}
 
 
