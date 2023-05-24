@@ -1,0 +1,14 @@
+2023-05-24 10:23:23,627 - INFO - student_handler.py:18 - get_student - Get the details of the student
+2023-05-24 11:03:15,978 - INFO - student_handler.py:24 - get_student - Get the details of the student
+2023-05-24 11:03:55,036 - INFO - student_handler.py:24 - get_student - Get the details of the student
+2023-05-24 11:09:47,916 - INFO - student_handler.py:24 - get_student - Get the details of the student
+2023-05-24 11:10:19,954 - INFO - student_handler.py:24 - get_student - Get the details of the student
+2023-05-24 11:10:20,856 - INFO - student_handler.py:24 - get_student - Get the details of the student
+2023-05-24 11:14:28,651 - INFO - student_handler.py:25 - get_student - Get the details of the student
+2023-05-24 11:14:58,885 - INFO - student_handler.py:25 - get_student - Get the details of the student
+2023-05-24 11:23:19,795 - INFO - student_handler.py:25 - get_student - Get the details of the student
+2023-05-24 11:24:24,963 - INFO - student_handler.py:25 - get_student - Get the details of the student
+2023-05-24 11:24:25,809 - INFO - student_handler.py:25 - get_student - Get the details of the student
+2023-05-24 11:30:19,809 - INFO - student_handler.py:25 - get_student - Get the details of the student
+2023-05-24 11:35:48,839 - INFO - student_handler.py:34 - insert_student - INFO: Adding a student detail 
+2023-05-24 11:36:07,530 - INFO - student_handler.py:25 - get_student - Get the details of the student
